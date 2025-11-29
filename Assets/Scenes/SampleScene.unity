@@ -432,7 +432,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: -2.85, y: 9.79, z: 1}
+  m_LocalPosition: {x: -5.22, y: 9.79, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -711,8 +711,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfac2f313bb18c5458e4f0be32a7b9e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ball
+  pinManager: {fileID: 1374747940}
   moveSpeed: 3
   launchForce: 10
+  scoreWaitTime: 10
 --- !u!54 &598476445
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -826,7 +828,7 @@ Transform:
   m_GameObject: {fileID: 598476443}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.62, y: 0.79, z: 5.24816}
+  m_LocalPosition: {x: -5.39, y: 0.79, z: 5.24816}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

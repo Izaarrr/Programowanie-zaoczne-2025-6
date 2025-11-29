@@ -39,4 +39,23 @@ public class PinManager : MonoBehaviour
         scoreText.text = knockedDownPins.ToString() + "/" + pins.Length.ToString();
         //scoreText.text = $"{knockedDownPins}/{pins.Length}";
     }
+
+    public void CleanupAfterThrow()
+    {
+        foreach (BowlingPin pin in pins)
+        {
+            if (pin.IsKnockedDown)
+            {
+                pin.Hide();
+            }
+        }
+    }
+
+    public void ResetPins()
+    {
+        foreach (BowlingPin pin in pins)
+        {
+            pin.ResetState();
+        }
+    }
 }
