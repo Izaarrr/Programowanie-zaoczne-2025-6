@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform cameraTransform;
     [SerializeField] private GameObject hitParticles;
     [SerializeField] private ParticleSystem shootParticles;
+    [SerializeField] private GunStats gunStats;
     private float timer = 1;
     private Vector2 moveInput;
     private Vector2 lookInput;
